@@ -1,0 +1,15 @@
+name: MCParty
+version: 0.0.1 PRE-ALPHA
+description: Cool game
+authors: [chasertw123]
+depend: [ViaVersion, ProtocolLib]
+
+main: me.chasertw123.minigames.mcparty.Main
+
+commands:
+  PlayMinigame:
+    description: Used for testing a minigame
+    aliases: [PlayMini, PlayGame]
+  ForceStart:
+    description: Force Start command, used for testing
+    aliases: [fs]
